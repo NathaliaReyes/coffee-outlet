@@ -9,7 +9,7 @@
 }
 
 .navbar a:hover {
-  color: steelblue;
+  color: #588157;
 }
 
 /* .page-container {
@@ -19,7 +19,8 @@
 
 /* This allows to scroll in the y direction but not in the x direction */
 body {
-  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: auto;
   overflow-y: auto;
   min-height: 100vh;
   margin: 0;
@@ -144,18 +145,18 @@ body {
 }
 
 .mainh1 img {
-  height: 1.5em;
+  height: 2.5em;
   vertical-align: middle;
 }
 
 .mainh1 a {
-  color: steelblue !important;
+  color: #588157 !important;
 }
 
 
 /* --------- Cards Homepage ---------*/
 .box {
-  background-color: steelblue;
+  background-color: #588157;
   color: #fff;
   display: flex;
   align-items: center;
@@ -228,6 +229,8 @@ body {
 }
 
 .homepage {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -258,7 +261,7 @@ body {
 }
 
 .gradient-bg {
-  background: linear-gradient(to right, #092b79, #a5e5f1);
+  background: linear-gradient(to right, #092b79, #22c7e4);
 }
 
 .gradient-bg a:hover {
@@ -273,15 +276,15 @@ body {
 
 /* format for footer */
 footer {
-  padding: 10px;
+  padding: 30px;
   clear: both;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-align: center;
   /* position: absolute; */
-  bottom: 0px;
-  width: 100%;
+  /* bottom: 0px; */
+  /* width: 100%; */
   /* height: 50px; */
-  height: 3.5rem; 
+  /* height: 3.5rem;  */
   /* background-color: #753742 !important; */
   /* padding: 10px; */
   color: #fff;
